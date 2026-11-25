@@ -14,6 +14,9 @@ is_false = False
 print("is_true: ", is_true, type(is_true))
 print("is_false: ", is_false, type(is_false))
 
+# 논리 연산자(not, and, or), 비교 연산자(>, <, >=, <=, ==, !=)의 결과는
+# 항상 자료형이 bool 이다
+
 # 비교 연산자
 # > , < , >= , <= , == , != 
 print("1 > 0.5:", 1 > 0.5) #True
@@ -67,3 +70,13 @@ result = (kor >= 40 and eng >= 40 and (kor + eng) / 2 >= 60) # True / False가 �
 result =  (kor >= 40) and (eng >= 40) and (kor + eng)/2 >= 60
 
 print("합격여부: ", result)
+
+
+# 논리 연산자(not, and, or), 비교 연산자(>, <, >=, <=, ==, !=)의 결과는
+# 항상 자료형이 bool 이다
+
+
+
+
+
+

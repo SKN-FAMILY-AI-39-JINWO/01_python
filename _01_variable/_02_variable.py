@@ -13,10 +13,12 @@ print('a: ', a)
 print('b: ', b)
 print('num: ', num)
 
+
 # 대소문자 구분 확인
 name = "이순신"
 NAME = "홍길동"
 print(name, NAME)
+
 
 #변수명은 snake casing을 사용한다.
 show_me_the_money = 10000
@@ -32,6 +34,23 @@ print(우리반)
 #1st_user = "김개똥"
 _1st_user = "김개똥"
 print(_1st_user)
+
+#second! = '김철수'
+#print(second!) 
+
+
+#파이썬 예약어(if, elif, else, for, while, …)를 사용할 수 없다.
+import keyword
+print(keyword.kwlist)
+
+#False=100
+
+#직관적인 변수명을 사용한다.
+a = 100
+num1 = 100
+name = "이름"
+
+
 
 
 
