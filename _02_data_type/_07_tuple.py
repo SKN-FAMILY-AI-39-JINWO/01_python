@@ -49,9 +49,9 @@ print("--- tuple unpacking ---")
 
 # ('A', 'a', 'b', 'c', 'd') 만들기
 # tpl_ =   'A' + tpl # 튜플에 문자열 안됨
-# print(tpl_)
+# print(tpl_) #에러 발생
 # tpl_ =   ('A') + tpl # (문자열)도 문자열, 불변에 불변(소괄호)을 둘러도 똑같아 벗겨짐
-# print(tpl_)
+# print(tpl_) #에러 발생
 tpl_ =  ('A',) + tpl
 print("('A',) + tpl = ", tpl_)
 
